@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBB339"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="389dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Эргашев Сардарбек Т423901НТ"
+            android:textColor="#050505"
+            android:textSize="34sp" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="214dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#0F0707"
+        android:text="Кнопка №1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="214dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#0F0707"
+        android:text="Кнопка №2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="214dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#0F0707"
+        android:text="Кнопка №3"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="214dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#0F0707"
+        android:text="Кнопка №4"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+</LinearLayout>
